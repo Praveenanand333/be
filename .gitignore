@@ -1,0 +1,17 @@
+# Dependency directories
+/node_modules
+
+# Environment files
+.env
+
+# Log files
+*.log
+
+# Built output
+/build
+
+# Dependency lock file
+package-lock.json
+
+# macOS generated files
+.DS_Store
