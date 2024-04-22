@@ -803,7 +803,7 @@ app.post('/forgotpassword',async(req,res) => {
     from: `${myemail}`,
     to: email,
     subject: "Reset Password",
-    text: `Click this link to reset your password: http://localhost:3000/reset-password/${role}/${token}`
+    text: `Click this link to reset your password: https://fe-orpin.vercel.app/reset-password/${role}/${token}`
   }
 
 
