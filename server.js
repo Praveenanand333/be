@@ -17,7 +17,7 @@ app.use(cors());
 app.use(body_parser.urlencoded({ extended: true }));
 
 const dbConfig = {
-    host: 'http://sql6.freesqldatabase.com',
+    host: 'http://sql6.freesqldatabase.com/',
     user: 'sql6701102',
     password: 'E4uGugBRbL',
     // password:'password',
